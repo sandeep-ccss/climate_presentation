@@ -12,7 +12,11 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@mast
+    - name: Checkout
+      uses: actions/checkout@master
+    
+    - name: Checkout submodules
+      uses: textbook/git-checkout-submodule-action@master
       
     - name: Jekyll Actions
       uses: helaili/jekyll-action@2.0.3
