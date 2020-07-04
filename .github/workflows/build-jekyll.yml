@@ -17,11 +17,6 @@ jobs:
     
     - name: Checkout submodules
       uses: textbook/git-checkout-submodule-action@master
-      
-    - name: Jekyll Actions
-      uses: helaili/jekyll-action@2.0.3
-      env:
-        JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
 
     - name: Build
       run: |
