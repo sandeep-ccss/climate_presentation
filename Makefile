@@ -6,3 +6,6 @@ build:
 
 server:
 	python3.7 -m http.server --directory _site
+
+clean:
+	rm -rf _site
