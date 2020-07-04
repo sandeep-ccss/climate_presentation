@@ -1,3 +1,11 @@
+# Make your own slides on GitHub
+
+This repository generates HTML slides from Markdown files using [reveal.js](#revealjs) and [Jekyll](#jekyll). You can see the slides [here](https://elearninghub.github.io/presentation-reveal-jekyll). Whenever the source files change, a [GitHub Action](https://github.com/features/actions) updates the slides automatically.
+
+If you want to make your own slides on GitHub, you can [fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) this repository. You may want to change the name of the repository. Make sure to check the GitHub Pages section of the settings of your repository. Choose the `gh-pages` branch from the source menu. If everything goes well, you will see the address of your GitHub page. It should be something like: `yourprofilename.github.io/your-repo-name`.
+
+There is one more thing you need to do. Change the `baseurl` in the `_config.yml` file with the new name of your repository.
+
 # reveal-jekyll
 
 Transforms Markdown files into presentation slides using [reveal.js](#revealjs) and [Jekyll](#jekyll). The theme is based on [Solarized Colors](//github.com/altercation/solarized) (by Ethan Schoonover) containing a light and a dark theme.  
