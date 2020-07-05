@@ -8,6 +8,8 @@ If you want to make your own slides on GitHub, you can [fork](https://help.githu
 
 There is one more thing you need to do. Change the `baseurl` in the `_config.yml` file with the new name of your repository.
 
+Please note that each markdown file in `_posts` is a separate presentation (set of slides). You can therefore keep all your presentations in one repository and add the URL of each one to the `README` file of your repository for easier access.
+
 # reveal-jekyll
 
 Transforms Markdown files into presentation slides using [reveal.js](#revealjs) and [Jekyll](#jekyll). The theme is based on [Solarized Colors](//github.com/altercation/solarized) (by Ethan Schoonover) containing a light and a dark theme.  
