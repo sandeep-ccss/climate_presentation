@@ -1,4 +1,4 @@
-timezone:    Europe/Berlin
+timezone:    Kolkata/IND
 future:      false
 # Set baseurl to the base path of the site eg "/mytalk"
 baseurl:     "/climate_presentation"
@@ -17,9 +17,9 @@ kramdown:
 #  - jemoji
 
 ## personalize your slide show
-title:       reveal-jekyll
-author:      Thomas Friese
-description: Reveal.js for Jekyll with Solarized Color theme
+title:       What and How of Global Warming
+author:      Aravindan Nagarajam and Sandeep Mahato
+description: 
 
 sass:
   style:     :compressed
